@@ -27,8 +27,7 @@
   --font-serif: "Newsreader", "Bitstream Charter", Georgia, serif;
 }
  
-[data-bs-theme="dark"],
-:root:has(#tema:checked) {
+[data-bs-theme="dark"], :root:has(#tema:checked) {
   --bg: #07140e;
   --surface: #0f2219;
   --soft: #14291f;
