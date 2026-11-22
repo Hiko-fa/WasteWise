@@ -81,7 +81,6 @@
 
 <main>
 
-<!-- ===== HERO ===== -->
 <header class="hero">
   <div class="container">
     <div class="row align-items-center g-5">
@@ -134,153 +133,493 @@
   <rect x="321" y="262" width="218" height="48" rx="16" fill="#1E9E58"/>
   <rect x="400" y="242" width="60" height="24" rx="9" fill="#1E9E58"/>
   <circle cx="430" cy="470" r="58" fill="#fff"/>
-  <g stroke="rgba(255,255,255,.45)" stroke-width="3" stroke-dasharray="3 12" stroke-linecap="round"><path d="M200 120C230 190 250 240 240 300"/><path d="M430 90C430 150 430 190 430 235"/><path d="M660 120C640 190 620 240 625 300"/></g>
-  <g transform="translate(176 70) rotate(-18)"><rect x="8" y="14" width="34" height="62" rx="9" fill="#7DBDEB"/><rect x="16" y="2" width="18" height="16" rx="4" fill="#fff"/></g>
-  <g transform="translate(396 40)"><path d="M34 0C8 6-4 26 4 52 30 46 48 26 34 0z" fill="#0F7A57"/></g>
-  <g transform="translate(626 66) rotate(14)"><rect width="38" height="56" rx="8" fill="#FF7A59"/><rect y="12" width="38" height="12" fill="#fff" opacity=".6"/></g>
-  <svg x="187" y="457" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#E5AB1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2h4v3l2 3v12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V8l2-3z"/><path d="M8 12h8"/></svg>
-  <svg x="382" y="422" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#1E9E58" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/><path d="M2 21c0-3 1.9-5.4 5.4-6.8"/></svg>
-  <svg x="577" y="457" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#E85D3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a8 8 0 0 0-5 14v3h10v-3a8 8 0 0 0-5-14z"/><circle cx="9" cy="11" r="1.5"/><circle cx="15" cy="11" r="1.5"/><path d="M10 20v-2M14 20v-2"/></svg>
+    <g stroke="rgba(255,255,255,.45)" stroke-width="3" stroke-dasharray="3 12" stroke-linecap="round">
+        <path d="M200 120C230 190 250 240 240 300"/>
+        <path d="M430 90C430 150 430 190 430 235"/>
+        <path d="M660 120C640 190 620 240 625 300"/>
+    </g>
+    <g transform="translate(176 70) rotate(-18)">
+        <rect x="8" y="14" width="34" height="62" rx="9" fill="#7DBDEB"/>
+        <rect x="16" y="2" width="18" height="16" rx="4" fill="#fff"/>
+    </g>
+    <g transform="translate(396 40)">
+        <path d="M34 0C8 6-4 26 4 52 30 46 48 26 34 0z" fill="#0F7A57"/>
+    </g>
+    <g transform="translate(626 66) rotate(14)">
+        <rect width="38" height="56" rx="8" fill="#FF7A59"/>
+        <rect y="12" width="38" height="12" fill="#fff" opacity=".6"/>
+    </g>
+    <svg x="187" y="457" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#E5AB1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2h4v3l2 3v12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V8l2-3z"/>
+        <path d="M8 12h8"/>
+    </svg>
+    <svg x="382" y="422" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#1E9E58" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/>
+        <path d="M2 21c0-3 1.9-5.4 5.4-6.8"/>
+    </svg>
+    <svg x="577" y="457" width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#E85D3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3a8 8 0 0 0-5 14v3h10v-3a8 8 0 0 0-5-14z"/>
+        <circle cx="9" cy="11" r="1.5"/>
+        <circle cx="15" cy="11" r="1.5"/>
+        <path d="M10 20v-2M14 20v-2"/>
+    </svg>
 </svg>
           <img class="cut leaf" src="images/hero/leaf.png" alt="">
           <img class="cut plant" src="images/hero/plant.png" alt="">
-          <div class="float-card a"><div class="ic" style="background:var(--mint);color:var(--accent)"><i class="bi bi-check2-circle"></i></div><div>Organik &rarr; Kompos<small>Terurai dalam 2 bulan</small></div></div>
-          <div class="float-card b"><div class="ic" style="background:#FFF1BE;color:#B88700"><i class="bi bi-lightbulb"></i></div><div>Tahukah kamu?<small>Plastik butuh ratusan tahun terurai</small></div></div>
+          <div class="float-card a">
+            <div class="ic" style="background:var(--mint);color:var(--accent)">
+                <i class="bi bi-check2-circle"></i>
+            </div>
+            <div>Organik &rarr; Kompos<small>Terurai dalam 2 bulan</small></div>
+          </div>
+          <div class="float-card b">
+            <div class="ic" style="background:#FFF1BE;color:#B88700">
+                <i class="bi bi-lightbulb"></i>
+            </div>
+            <div>Tahukah kamu?<small>Plastik butuh ratusan tahun terurai</small></div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="strip" aria-hidden="true"><div class="strip-track"><span>Organik</span><span><em>Anorganik</em></span><span>B3</span><span><em>Elektronik</em></span><span>Reduce</span><span><em>Reuse</em></span><span>Recycle</span><span><em>Bank Sampah</em></span><span>Kompos</span><span><em>SDGs</em></span><span>Organik</span><span><em>Anorganik</em></span><span>B3</span><span><em>Elektronik</em></span><span>Reduce</span><span><em>Reuse</em></span><span>Recycle</span><span><em>Bank Sampah</em></span><span>Kompos</span><span><em>SDGs</em></span></div></div>
+<div class="strip" aria-hidden="true">
+    <div class="strip-track">
+        <span>Organik</span>
+        <span><em>Anorganik</em></span>
+        <span>B3</span>
+        <span><em>Elektronik</em></span>
+        <span>Reduce</span>
+        <span><em>Reuse</em></span>
+        <span>Recycle</span>
+        <span><em>Bank Sampah</em></span>
+        <span>Kompos</span>
+        <span><em>SDGs</em></span>
+        <span>Organik</span>
+        <span><em>Anorganik</em></span>
+        <span>B3</span>
+        <span><em>Elektronik</em></span>
+        <span>Reduce</span>
+        <span><em>Reuse</em></span>
+        <span>Recycle</span>
+        <span><em>Bank Sampah</em></span>
+        <span>Kompos</span>
+        <span><em>SDGs</em></span>
+    </div>
+  </div>
 
-<!-- ===== JENIS SAMPAH ===== -->
 <section class="sec" id="jenis">
   <div class="container">
     <div class="sec-head d-flex flex-wrap justify-content-between align-items-end gap-4" data-anim style="margin-bottom:96px">
-      <div><div class="eyebrow">Jenis Sampah</div><h2 class="sec-title">Kenali sampahmu,<br><em>pilah</em> dengan tepat.</h2></div>
+      <div>
+        <div class="eyebrow">Jenis Sampah</div>
+        <h2 class="sec-title">Kenali sampahmu,<br><em>pilah</em> dengan tepat.</h2>
+      </div>
       <div class="d-flex flex-column align-items-lg-end gap-3">
-        <div class="d-flex gap-2 flex-wrap"><a class="chip active" href="pages/jenis-sampah.html">Semua</a><a class="chip" href="pages/jenis-sampah.html#organik">Organik</a><a class="chip" href="pages/jenis-sampah.html#anorganik">Anorganik</a><a class="chip" href="pages/jenis-sampah.html#b3">B3</a><a class="chip" href="pages/jenis-sampah.html#elektronik">Elektronik</a></div>
+        <div class="d-flex gap-2 flex-wrap">
+            <a class="chip active" href="pages/jenis-sampah.html">Semua</a>
+            <a class="chip" href="pages/jenis-sampah.html#organik">Organik</a>
+            <a class="chip" href="pages/jenis-sampah.html#anorganik">Anorganik</a>
+            <a class="chip" href="pages/jenis-sampah.html#b3">B3</a>
+            <a class="chip" href="pages/jenis-sampah.html#elektronik">Elektronik</a>
+        </div>
       </div>
     </div>
     <div class="row g-4">
       <div class="col-lg-5" data-anim>
         <a class="tile big t-organik" href="pages/jenis-sampah.html#organik" style="overflow:visible">
           <img class="cutout" src="images/hero/leaf.png" alt="" style="width:230px;left:34px;top:-60px;transform:rotate(-10deg)">
-          <div style="position:absolute;inset:0;overflow:hidden;border-radius:var(--r-lg);pointer-events:none"><svg class="art" style="right:-60px;top:-40px" width="480" height="480" viewBox="0 0 520 520" fill="none" aria-hidden="true"><circle cx="300" cy="230" r="230" fill="#0F5A43"/><circle cx="300" cy="230" r="150" fill="#16795a"/><path d="M300 90C210 110 170 190 200 290 290 280 360 220 300 90z" fill="#C9F25B"/><path d="M300 110C290 190 270 250 215 290" stroke="#0A3D2E" stroke-width="6" stroke-linecap="round"/></svg></div>
-          <span class="go" style="background:var(--lime);color:var(--forest)"><i class="bi bi-arrow-up-right"></i></span>
+          <div style="position:absolute;inset:0;overflow:hidden;border-radius:var(--r-lg);pointer-events:none">
+            <svg class="art" style="right:-60px;top:-40px" width="480" height="480" viewBox="0 0 520 520" fill="none" aria-hidden="true">
+                <circle cx="300" cy="230" r="230" fill="#0F5A43"/>
+                <circle cx="300" cy="230" r="150" fill="#16795a"/>
+                <path d="M300 90C210 110 170 190 200 290 290 280 360 220 300 90z" fill="#C9F25B"/>
+                <path d="M300 110C290 190 270 250 215 290" stroke="#0A3D2E" stroke-width="6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="go" style="background:var(--lime);color:var(--forest)">
+            <i class="bi bi-arrow-up-right"></i>
+          </span>
           <span class="lab">60% DARI SAMPAH RUMAH</span><h3>Organik</h3><p>Sisa makanan, daun, ranting, dan bahan alami yang mudah terurai. Olah menjadi kompos.</p>
-          <div class="tags"><span>Sisa makanan</span><span>Daun kering</span><span>Kulit buah</span></div>
+          <div class="tags">
+            <span>Sisa makanan</span><span>Daun kering</span><span>Kulit buah</span>
+          </div>
         </a>
       </div>
       <div class="col-lg-7"><div class="row g-4">
-        <div class="col-md-7" data-anim data-delay="100"><a class="tile t-anorganik" href="pages/jenis-sampah.html#anorganik">
-          <svg class="art" style="right:-30px;top:-30px" width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true"><circle cx="190" cy="120" r="130" fill="#FBD46B"/><g transform="translate(150 60) rotate(14)"><rect x="0" y="22" width="70" height="130" rx="18" fill="#fff" opacity=".85"/><rect x="18" y="0" width="34" height="30" rx="8" fill="#fff"/></g></svg>
-          <span class="go" style="background:#3a2a00;color:var(--sun)"><i class="bi bi-arrow-up-right"></i></span><h3>Anorganik</h3><p>Plastik, kertas, kaca, dan logam yang bisa didaur ulang.</p></a></div>
-        <div class="col-md-5" data-anim data-delay="200"><a class="tile t-b3" href="pages/jenis-sampah.html#b3">
+        <div class="col-md-7" data-anim data-delay="100">
+            <a class="tile t-anorganik" href="pages/jenis-sampah.html#anorganik">
+          <svg class="art" style="right:-30px;top:-30px" width="300" height="300" viewBox="0 0 300 300" fill="none" aria-hidden="true">
+            <circle cx="190" cy="120" r="130" fill="#FBD46B"/>
+            <g transform="translate(150 60) rotate(14)">
+                <rect x="0" y="22" width="70" height="130" rx="18" fill="#fff" opacity=".85"/>
+                <rect x="18" y="0" width="34" height="30" rx="8" fill="#fff"/>
+            </g>
+          </svg>
+          <span class="go" style="background:#3a2a00;color:var(--sun)">
+            <i class="bi bi-arrow-up-right"></i>
+          </span>
+        <h3>Anorganik</h3><p>Plastik, kertas, kaca, dan logam yang bisa didaur ulang.</p>
+            </a>
+        </div>
+        <div class="col-md-5" data-anim data-delay="200">
+            <a class="tile t-b3" href="pages/jenis-sampah.html#b3">
           <svg class="art" style="right:-40px;top:-40px" width="260" height="260" viewBox="0 0 260 260" fill="none" aria-hidden="true"><circle cx="160" cy="110" r="110" fill="#FF9479"/></svg>
-          <span class="go" style="background:#3d1204;color:var(--coral)"><i class="bi bi-arrow-up-right"></i></span><h3>B3</h3><p>Baterai, obat, cat, dan bahan berbahaya.</p></a></div>
-        <div class="col-12" data-anim data-delay="300"><a class="tile t-elektronik" href="pages/jenis-sampah.html#elektronik" style="min-height:300px">
-          <svg class="art" style="right:20px;bottom:-30px" width="340" height="290" viewBox="0 0 360 300" fill="none" aria-hidden="true"><circle cx="200" cy="170" r="130" fill="var(--mint)"/><rect x="130" y="40" width="130" height="230" rx="24" fill="#0A3D2E"/><rect x="142" y="58" width="106" height="170" rx="10" fill="#7DBDEB"/><circle cx="195" cy="248" r="9" fill="#C9F25B"/><rect x="250" y="120" width="90" height="100" rx="14" fill="#C9F25B"/><path d="M270 150h50M270 170h50M270 190h30" stroke="#0A3D2E" stroke-width="6" stroke-linecap="round"/></svg>
-          <span class="go" style="background:var(--btn-bg);color:var(--btn-dot);"><i class="bi bi-arrow-up-right"></i></span><h3>Elektronik</h3><p>HP bekas, kabel, charger, dan lampu. Setorkan ke titik e-waste resmi.</p>
-          <div class="tags"><span>E-waste</span><span>Baterai litium</span><span>Lampu</span></div></a></div>
+          <span class="go" style="background:#3d1204;color:var(--coral)">
+            <i class="bi bi-arrow-up-right"></i>
+          </span>
+          <h3>B3</h3><p>Baterai, obat, cat, dan bahan berbahaya.</p>
+            </a>
+        </div>
+        <div class="col-12" data-anim data-delay="300">
+            <a class="tile t-elektronik" href="pages/jenis-sampah.html#elektronik" style="min-height:300px">
+          <svg class="art" style="right:20px;bottom:-30px" width="340" height="290" viewBox="0 0 360 300" fill="none" aria-hidden="true">
+            <circle cx="200" cy="170" r="130" fill="var(--mint)"/>
+            <rect x="130" y="40" width="130" height="230" rx="24" fill="#0A3D2E"/>
+            <rect x="142" y="58" width="106" height="170" rx="10" fill="#7DBDEB"/>
+            <circle cx="195" cy="248" r="9" fill="#C9F25B"/>
+            <rect x="250" y="120" width="90" height="100" rx="14" fill="#C9F25B"/>
+            <path d="M270 150h50M270 170h50M270 190h30" stroke="#0A3D2E" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <span class="go" style="background:var(--btn-bg);color:var(--btn-dot);">
+            <i class="bi bi-arrow-up-right"></i>
+          </span>
+          <h3>Elektronik</h3>
+          <p>HP bekas, kabel, charger, dan lampu. Setorkan ke titik e-waste resmi.</p>
+          <div class="tags">
+            <span>E-waste</span>
+            <span>Baterai litium</span>
+            <span>Lampu</span>
+          </div>
+            </a>
+        </div>
       </div></div>
     </div>
   </div>
 </section>
 
-<!-- ===== PENGELOLAAN ===== -->
 <section class="sec sec-white" id="pengelolaan" style="overflow:hidden">
   <img class="bg-deco" src="images/management/recycle.jpg" alt="" style="display:none">
   <div class="container position-relative" style="z-index:2">
     <div class="sec-head d-flex flex-wrap justify-content-between align-items-end gap-4" data-anim>
-      <div><div class="eyebrow">Pengelolaan Sampah</div><h2 class="sec-title">Dari rumah hingga<br><em>bank sampah.</em></h2></div>
+      <div>
+        <div class="eyebrow">Pengelolaan Sampah</div>
+        <h2 class="sec-title">Dari rumah hingga<br><em>bank sampah.</em></h2>
+      </div>
       <p class="sec-sub mb-0">Empat langkah sederhana agar sampahmu tidak berakhir di tempat yang salah.</p>
     </div>
     <div class="row g-4 flow">
-      <div class="col-md-6 col-xl-3" data-anim><div class="step"><div class="c" style="background:#DFF4E6;color:#1E9E58"><i class="bi bi-funnel"></i><b>1</b></div><h3>Pilah</h3><p>Pisahkan sampah sesuai jenisnya sejak dari rumah.</p></div></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="100"><div class="step"><div class="c" style="background:#FFF1C7;color:#C28B00"><i class="bi bi-basket"></i><b>2</b></div><h3>Kumpulkan</h3><p>Simpan di wadah bersih dan tertutup agar tidak berbau.</p></div></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="200"><div class="step"><div class="c" style="background:#DDEEFB;color:#2A75AE"><i class="bi bi-recycle"></i><b>3</b></div><h3>Olah</h3><p>Kompos organik, daur ulang anorganik, serahkan B3 ke petugas.</p></div></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="300"><div class="step"><div class="c" style="background:#F2E4FF;color:#8A3FD0"><i class="bi bi-bank"></i><b>4</b></div><h3>Setor</h3><p>Tukar sampah anorganik di Bank Sampah terdekat.</p></div></div>
+      <div class="col-md-6 col-xl-3" data-anim>
+        <div class="step">
+            <div class="c" style="background:#DFF4E6;color:#1E9E58">
+                <i class="bi bi-funnel"></i>
+                <b>1</b>
+            </div>
+            <h3>Pilah</h3>
+            <p>Pisahkan sampah sesuai jenisnya sejak dari rumah.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="100">
+        <div class="step">
+            <div class="c" style="background:#FFF1C7;color:#C28B00">
+                <i class="bi bi-basket"></i>
+                <b>2</b>
+            </div>
+            <h3>Kumpulkan</h3>
+            <p>Simpan di wadah bersih dan tertutup agar tidak berbau.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="200">
+        <div class="step">
+            <div class="c" style="background:#DDEEFB;color:#2A75AE">
+                <i class="bi bi-recycle"></i>
+                <b>3</b>
+            </div>
+            <h3>Olah</h3>
+            <p>Kompos organik, daur ulang anorganik, serahkan B3 ke petugas.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="300">
+        <div class="step">
+            <div class="c" style="background:#F2E4FF;color:#8A3FD0">
+                <i class="bi bi-bank"></i>
+                <b>4</b>
+            </div>
+            <h3>Setor</h3>
+            <p>Tukar sampah anorganik di Bank Sampah terdekat.</p>
+        </div>
+      </div>
     </div>
     <div class="row g-4 mt-5 pt-3">
-      <div class="col-lg-4" data-anim><div class="bin-card bin-green"><i class="bi bi-trash3-fill"></i><div><h4>Tong Hijau</h4><p>Organik: sisa makanan, daun, ranting</p></div></div></div>
-      <div class="col-lg-4" data-anim data-delay="100"><div class="bin-card bin-yellow"><i class="bi bi-trash3-fill"></i><div><h4>Tong Kuning</h4><p>Anorganik: plastik, kertas, kaca, logam</p></div></div></div>
-      <div class="col-lg-4" data-anim data-delay="200"><div class="bin-card bin-red"><i class="bi bi-trash3-fill"></i><div><h4>Tong Merah</h4><p>B3: baterai, obat, bahan kimia</p></div></div></div>
+      <div class="col-lg-4" data-anim>
+        <div class="bin-card bin-green">
+            <i class="bi bi-trash3-fill"></i>
+            <div>
+                <h4>Tong Hijau</h4>
+                <p>Organik: sisa makanan, daun, ranting</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-anim data-delay="100">
+        <div class="bin-card bin-yellow">
+            <i class="bi bi-trash3-fill"></i>
+            <div>
+                <h4>Tong Kuning</h4>
+                <p>Anorganik: plastik, kertas, kaca, logam</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4" data-anim data-delay="200">
+        <div class="bin-card bin-red">
+            <i class="bi bi-trash3-fill"></i>
+            <div>
+                <h4>Tong Merah</h4>
+                <p>B3: baterai, obat, bahan kimia</p>
+            </div>
+        </div>
+      </div>
     </div>
-    <div class="text-center mt-5" data-anim><a class="btn-ww" href="pages/pengelolaan.html" >Lihat Panduan Lengkap <span class="dot"><i class="bi bi-arrow-right"></i></span></a></div>
+    <div class="text-center mt-5" data-anim>
+        <a class="btn-ww" href="pages/pengelolaan.html" >Lihat Panduan Lengkap 
+            <span class="dot">
+                <i class="bi bi-arrow-right"></i>
+            </span>
+        </a>
+    </div>
   </div>
 </section>
 
-<!-- ===== 3R ===== -->
 <section class="rr my-5" id="tiga-r">
   <div class="bgphoto"></div>
   <div class="container">
     <div class="row g-5">
       <div class="col-lg-5" data-anim>
-        <div class="eyebrow">Prinsip 3R</div><h2 class="sec-title">Tiga langkah, <em>satu</em> bumi.</h2>
+        <div class="eyebrow">Prinsip 3R</div>
+        <h2 class="sec-title">Tiga langkah, <em>satu</em> bumi.</h2>
         <p class="lead-ww mt-4">Mulai dari kebiasaan kecil: kurangi, gunakan kembali, dan daur ulang. Dampaknya terasa untuk generasi berikutnya.</p>
-        <div class="mt-5"><a class="btn-lime" href="pages/3r.html" >Pelajari 3R <span class="dot"><i class="bi bi-arrow-right"></i></span></a></div>
+        <div class="mt-5">
+            <a class="btn-lime" href="pages/3r.html" >Pelajari 3R 
+                <span class="dot">
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+            </a>
+        </div>
       </div>
       <div class="col-lg-7">
-        <a class="ritem" href="pages/3r.html#reduce" data-anim><div class="n">01</div><div><h3>Reduce</h3><p>Kurangi pemakaian barang sekali pakai. Bawa tas belanja dan botol minum sendiri.</p></div><div class="ar"><i class="bi bi-arrow-up-right"></i></div></a>
-        <a class="ritem" href="pages/3r.html#reuse" data-anim data-delay="100"><div class="n">02</div><div><h3>Reuse</h3><p>Gunakan kembali botol, kaleng, dan kardus sebelum akhirnya dibuang.</p></div><div class="ar"><i class="bi bi-arrow-up-right"></i></div></a>
-        <a class="ritem" href="pages/3r.html#recycle" data-anim data-delay="200"><div class="n">03</div><div><h3>Recycle</h3><p>Olah sampah menjadi produk baru bernilai guna lewat daur ulang dan bank sampah.</p></div><div class="ar"><i class="bi bi-arrow-up-right"></i></div></a>
+        <a class="ritem" href="pages/3r.html#reduce" data-anim>
+            <div class="n">01</div>
+            <div>
+                <h3>Reduce</h3>
+                <p>Kurangi pemakaian barang sekali pakai. Bawa tas belanja dan botol minum sendiri.</p>
+            </div>
+            <div class="ar">
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+        </a>
+        <a class="ritem" href="pages/3r.html#reuse" data-anim data-delay="100">
+            <div class="n">02</div>
+            <div>
+                <h3>Reuse</h3>
+                <p>Gunakan kembali botol, kaleng, dan kardus sebelum akhirnya dibuang.</p>
+            </div>
+            <div class="ar">
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+        </a>
+        <a class="ritem" href="pages/3r.html#recycle" data-anim data-delay="200">
+            <div class="n">03</div>
+            <div>
+                <h3>Recycle</h3>
+                <p>Olah sampah menjadi produk baru bernilai guna lewat daur ulang dan bank sampah.</p>
+            </div>
+            <div class="ar">
+                <i class="bi bi-arrow-up-right"></i>
+            </div>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== ARTIKEL ===== -->
 <section class="sec" id="artikel">
   <div class="container">
     <div class="sec-head d-flex flex-wrap justify-content-between align-items-end gap-4" data-anim>
-      <div><div class="eyebrow">Artikel Edukasi</div><h2 class="sec-title">Bacaan <em>terbaru</em><br>untuk kamu.</h2></div>
-      <a class="btn-ww" href="pages/artikel.html" >Semua Artikel <span class="dot"><i class="bi bi-arrow-right"></i></span></a>
+      <div>
+        <div class="eyebrow">Artikel Edukasi</div>
+        <h2 class="sec-title">Bacaan <em>terbaru</em><br>untuk kamu.</h2>
+      </div>
+      <a class="btn-ww" href="pages/artikel.html" >Semua Artikel 
+        <span class="dot">
+            <i class="bi bi-arrow-right"></i>
+        </span>
+      </a>
     </div>
-    <div class="row g-4" id="homeArticles"><div class="col-lg-7" data-anim><a class="feat" href="pages/detail-artikel-sampah-plastik.html">
-        <div class="im"><img src="images/contoh/botol-plastik.jpg" alt="Bahaya sampah plastik bagi laut dan cara menguranginya"></div>
-        <div class="bd"><div class="meta"><span class="ct">Sampah Plastik</span><span>12 Okt 2026</span><span>·</span><span>5 menit baca</span></div><h3>Bahaya sampah plastik bagi laut dan cara menguranginya</h3><p class="text-mut">Setiap tahun jutaan ton plastik berakhir di lautan. Kenali dampaknya dan mulai kurangi dari rumah.</p>
-          <span class="rd">Baca selengkapnya <i class="bi bi-arrow-up-right"></i></span></div></a></div>
-      <div class="col-lg-5 d-flex flex-column gap-4" data-anim data-delay="120"><a class="row-art" href="pages/detail-artikel-sampah-elektronik.html">
-        <div class="im"><img src="images/contoh/sampah-elektronik.jpg" alt="Mengelola sampah elektronik dengan aman" loading="lazy"></div>
-        <div><div class="meta"><span class="ct">E-Waste</span><span>10 Okt 2026</span><span>·</span><span>4 menit baca</span></div><h3>Mengelola sampah elektronik dengan aman</h3><span class="rd">Baca <i class="bi bi-arrow-up-right"></i></span></div></a><a class="row-art" href="pages/detail-artikel-sampah-makanan.html">
-        <div class="im"><img src="images/contoh/sisa-makanan.jpg" alt="Food waste: dari dapur jadi kompos bernilai" loading="lazy"></div>
-        <div><div class="meta"><span class="ct">Sampah Makanan</span><span>8 Okt 2026</span><span>·</span><span>6 menit baca</span></div><h3>Food waste: dari dapur jadi kompos bernilai</h3><span class="rd">Baca <i class="bi bi-arrow-up-right"></i></span></div></a></div></div>
+    <div class="row g-4" id="homeArticles">
+        <div class="col-lg-7" data-anim>
+            <a class="feat" href="pages/detail-artikel-sampah-plastik.html">
+        <div class="im">
+            <img src="images/contoh/botol-plastik.jpg" alt="Bahaya sampah plastik bagi laut dan cara menguranginya">
+        </div>
+        <div class="bd">
+            <div class="meta">
+                <span class="ct">Sampah Plastik</span>
+                <span>12 Okt 2026</span>
+                <span>·</span>
+                <span>5 menit baca</span>
+            </div>
+            <h3>Bahaya sampah plastik bagi laut dan cara menguranginya</h3>
+            <p class="text-mut">Setiap tahun jutaan ton plastik berakhir di lautan. Kenali dampaknya dan mulai kurangi dari rumah.</p>
+          <span class="rd">Baca selengkapnya 
+            <i class="bi bi-arrow-up-right"></i>
+          </span>
+        </div>
+            </a>
+        </div>
+      <div class="col-lg-5 d-flex flex-column gap-4" data-anim data-delay="120">
+        <a class="row-art" href="pages/detail-artikel-sampah-elektronik.html">
+        <div class="im">
+            <img src="images/contoh/sampah-elektronik.jpg" alt="Mengelola sampah elektronik dengan aman" loading="lazy">
+        </div>
+        <div>
+            <div class="meta">
+                <span class="ct">E-Waste</span>
+                <span>10 Okt 2026</span>
+                <span>·</span>
+                <span>4 menit baca</span>
+            </div>
+            <h3>Mengelola sampah elektronik dengan aman</h3>
+            <span class="rd">Baca 
+                <i class="bi bi-arrow-up-right"></i>
+            </span>
+        </div>
+        </a>
+        <a class="row-art" href="pages/detail-artikel-sampah-makanan.html">
+        <div class="im">
+            <img src="images/contoh/sisa-makanan.jpg" alt="Food waste: dari dapur jadi kompos bernilai" loading="lazy">
+        </div>
+        <div>
+            <div class="meta">
+                <span class="ct">Sampah Makanan</span>
+                <span>8 Okt 2026</span>
+                <span>·</span>
+                <span>6 menit baca</span>
+            </div>
+            <h3>Food waste: dari dapur jadi kompos bernilai</h3>
+            <span class="rd">Baca 
+                <i class="bi bi-arrow-up-right"></i>
+            </span>
+        </div>
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- ===== STATISTIK ===== -->
 <section class="st-wrap sec" id="statistik">
   <div class="container">
     <div class="sec-head d-flex flex-wrap justify-content-between align-items-end gap-4" data-anim>
-      <div><div class="eyebrow">Statistik Sampah</div><h2 class="sec-title">Angka yang perlu<br>kita <em>pedulikan.</em></h2></div>
+      <div>
+        <div class="eyebrow">Statistik Sampah</div>
+        <h2 class="sec-title">Angka yang perlu<br>kita <em>pedulikan.</em></h2>
+      </div>
       <p class="sec-sub mb-0">Gambaran timbulan sampah nasional berdasarkan jenis dan sumbernya.</p>
     </div>
     <div class="row g-4">
-      <div class="col-lg-4" data-anim><div class="big-stat">
-        <div><p class="mb-3" style="font-size:.8rem;letter-spacing:.1em;font-weight:600;opacity:.7">TIMBULAN SAMPAH NASIONAL / TAHUN</p><div class="num"><span>68,5</span><small>juta ton</small></div></div>
-        <p>Baru sekitar 39% yang terkelola dengan baik. Sisanya mencemari tanah, sungai, dan laut.</p><div class="circ"></div></div></div>
-      <div class="col-lg-8" data-anim data-delay="120"><div class="cd">
-        <div class="row g-3">
-          <div class="col-6 col-md-3"><div class="kpi"><b>39%</b><span>Terkelola</span></div></div>
-          <div class="col-6 col-md-3"><div class="kpi"><b>19,2 Jt</b><span>Ton sampah plastik</span></div></div>
-          <div class="col-6 col-md-3"><div class="kpi"><b>42%</b><span>Sampah organik</span></div></div>
-          <div class="col-6 col-md-3"><div class="kpi"><b>1.248</b><span>Laporan warga</span></div></div>
+      <div class="col-lg-4" data-anim>
+        <div class="big-stat">
+        <div>
+            <p class="mb-3" style="font-size:.8rem;letter-spacing:.1em;font-weight:600;opacity:.7">TIMBULAN SAMPAH NASIONAL / TAHUN</p>
+            <div class="num">
+                <span>68,5</span>
+                <small>juta ton</small>
+            </div>
         </div>
-        <div class="mini-bars mt-4"><div><i style="height:48%"></i><b>41</b><span>2019</span></div><div><i style="height:56%"></i><b>47</b><span>2020</span></div><div><i style="height:54%"></i><b>46</b><span>2021</span></div><div><i style="height:70%"></i><b>58</b><span>2022</span></div><div><i style="height:66%"></i><b>55</b><span>2023</span></div><div><i style="height:90%"></i><b>68</b><span>2024</span></div></div>
-        <div class="d-flex justify-content-between align-items-center mt-4 flex-wrap gap-3"><small class="text-mut">Data ilustrasi, lihat halaman Statistik untuk grafik lengkap.</small><a class="btn-ww btn-sm-ww" href="pages/statistik.html" >Lihat Grafik <span class="dot"><i class="bi bi-arrow-right"></i></span></a></div>
-      </div></div>
+        <p>Baru sekitar 39% yang terkelola dengan baik. Sisanya mencemari tanah, sungai, dan laut.</p>
+        <div class="circ"></div>
+        </div>
+      </div>
+      <div class="col-lg-8" data-anim data-delay="120">
+        <div class="cd">
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="kpi">
+                <b>39%</b>
+                <span>Terkelola</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="kpi">
+                <b>19,2 Jt</b>
+                <span>Ton sampah plastik</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="kpi">
+                <b>42%</b>
+                <span>Sampah organik</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="kpi">
+                <b>1.248</b>
+                <span>Laporan warga</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-bars mt-4">
+            <div>
+                <i style="height:48%"></i>
+                <b>41</b>
+                <span>2019</span>
+            </div>
+            <div>
+                <i style="height:56%"></i>
+                <b>47</b>
+                <span>2020</span>
+            </div>
+            <div>
+                <i style="height:54%"></i>
+                <b>46</b>
+                <span>2021</span>
+            </div>
+            <div>
+                <i style="height:70%"></i>
+                <b>58</b>
+                <span>2022</span>
+            </div>
+            <div>
+                <i style="height:66%"></i>
+                <b>55</b>
+                <span>2023</span>
+            </div>
+            <div>
+                <i style="height:90%"></i>
+                <b>68</b>
+                <span>2024</span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-4 flex-wrap gap-3">
+            <small class="text-mut">Data ilustrasi, lihat halaman Statistik untuk grafik lengkap.</small>
+            <a class="btn-ww btn-sm-ww" href="pages/statistik.html" >Lihat Grafik 
+                <span class="dot">
+                    <i class="bi bi-arrow-right"></i>
+                </span>
+            </a>
+        </div>
+      </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== LAPORAN ===== -->
 <section class="sec" id="laporan">
   <div class="container">
     <div class="row g-5 align-items-center">
       <div class="col-lg-6" data-anim>
-        <div class="eyebrow">Laporan Sampah</div><h2 class="sec-title mb-4">Lihat tumpukan?<br><em>Laporkan!</em></h2>
+        <div class="eyebrow">Laporan Sampah</div>
+        <h2 class="sec-title mb-4">Lihat tumpukan?<br><em>Laporkan!</em>
+        </h2>
         <p class="sec-sub mb-5">Bantu lingkungan sekitar dengan melaporkan sampah liar. Laporanmu diteruskan ke petugas dan statusnya bisa kamu pantau.</p>
         <div id="reportMini"><div class="trk"><div class="ic" style="background:var(--mint);color:var(--accent)"><i class="bi bi-geo-alt-fill"></i></div>
       <div><h4>Jl. Melati, Sleman</h4><small>#WW-0231 · 2 jam lalu</small></div>
@@ -292,21 +631,47 @@
         <a class="rd mt-3" href="pages/laporan.html">Lihat semua laporan <i class="bi bi-arrow-up-right"></i></a>
       </div>
       <div class="col-lg-6" data-anim="right"><form class="form-panel" id="formLaporan" action="pages/laporan.html#formLaporan" method="get">
-  <div class="laporan-ok" role="status"><i class="bi bi-check2-circle"></i><div><b>Laporan terkirim!</b><small>Terima kasih, laporanmu sudah kami terima.</small></div></div>
+  <div class="laporan-ok" role="status">
+    <i class="bi bi-check2-circle"></i>
+    <div>
+        <b>Laporan terkirim!</b><small>Terima kasih, laporanmu sudah kami terima.</small>
+    </div>
+  </div>
   <h3 class="mb-1">Form laporan</h3>
   <p class="mb-4" style="opacity:.72">Isi data singkat, kami urus sisanya.</p>
   <div class="row g-3">
-    <div class="col-md-6"><label for="nama">Nama pelapor</label><input class="form-control" id="nama" name="nama" placeholder="Nama lengkap" autocomplete="name" required minlength="3" title="Nama minimal 3 karakter."></div>
+    <div class="col-md-6">
+        <label for="nama">Nama pelapor</label>
+        <input class="form-control" id="nama" name="nama" placeholder="Nama lengkap" autocomplete="name" required minlength="3" title="Nama minimal 3 karakter.">
+    </div>
     <div class="col-md-6"><label for="jenis">Jenis sampah</label>
-      <select class="form-select" id="jenis" name="jenis" required title="Pilih jenis sampah."><option value="">Pilih jenis</option><option>Organik</option><option>Anorganik</option><option>B3</option><option>Elektronik</option><option>Campuran</option></select></div>
-    <div class="col-12"><label for="lokasi">Lokasi kejadian</label><input class="form-control" id="lokasi" name="lokasi" placeholder="Contoh: Jl. Merdeka No. 12, Bandung" required minlength="5" title="Isi lokasi dengan jelas (min. 5 karakter)."></div>
-    <div class="col-12"><label>Foto bukti</label>
+      <select class="form-select" id="jenis" name="jenis" required title="Pilih jenis sampah.">
+        <option value="">Pilih jenis</option>
+        <option>Organik</option>
+        <option>Anorganik</option>
+        <option>B3</option>
+        <option>Elektronik</option>
+        <option>Campuran</option>
+      </select>
+    </div>
+    <div class="col-12">
+        <label for="lokasi">Lokasi kejadian</label>
+        <input class="form-control" id="lokasi" name="lokasi" placeholder="Contoh: Jl. Merdeka No. 12, Bandung" required minlength="5" title="Isi lokasi dengan jelas (min. 5 karakter).">
+    </div>
+    <div class="col-12">
+        <label>Foto bukti</label>
       <label class="upload mb-0" style="text-transform:none;letter-spacing:0;opacity:1">
         <i class="bi bi-camera"></i>
-        <div class="isi-upload"><p><b>Pilih file</b> atau seret foto ke sini<br>JPG / PNG, maks. 2MB</p>
-        <input type="file" name="foto" accept="image/png,image/jpeg,image/webp" required title="Foto bukti wajib diunggah."></div>
-      </label></div>
-    <div class="col-12"><label for="deskripsi">Deskripsi</label><textarea class="form-control" id="deskripsi" name="deskripsi" rows="3" maxlength="300" minlength="10" required placeholder="Ceritakan kondisi sampah..." title="Deskripsi minimal 10 karakter."></textarea></div>
+        <div class="isi-upload">
+            <p><b>Pilih file</b> atau seret foto ke sini<br>JPG / PNG, maks. 2MB</p>
+        <input type="file" name="foto" accept="image/png,image/jpeg,image/webp" required title="Foto bukti wajib diunggah.">
+        </div>
+      </label>
+    </div>
+    <div class="col-12">
+        <label for="deskripsi">Deskripsi</label>
+        <textarea class="form-control" id="deskripsi" name="deskripsi" rows="3" maxlength="300" minlength="10" required placeholder="Ceritakan kondisi sampah..." title="Deskripsi minimal 10 karakter."></textarea>
+    </div>
   </div>
   <button class="btn-lime w-100 justify-content-between mt-3" type="submit">Kirim Laporan <span class="dot"><i class="bi bi-arrow-right"></i></span></button>
 </form></div>
@@ -314,32 +679,381 @@
   </div>
 </section>
 
-<!-- ===== TIPS ===== -->
 <section class="tips-wrap my-5" id="tips">
-  <div class="container"><input type="radio" class="sakelar" name="tip" id="tip-0" checked aria-label="Tips 1"><input type="radio" class="sakelar" name="tip" id="tip-1" aria-label="Tips 2"><input type="radio" class="sakelar" name="tip" id="tip-2" aria-label="Tips 3"><input type="radio" class="sakelar" name="tip" id="tip-3" aria-label="Tips 4"><input type="radio" class="sakelar" name="tip" id="tip-4" aria-label="Tips 5"><input type="radio" class="sakelar" name="tip" id="tip-5" aria-label="Tips 6"><input type="radio" class="sakelar" name="tip" id="tip-6" aria-label="Tips 7"><input type="radio" class="sakelar" name="tip" id="tip-7" aria-label="Tips 8"><input type="radio" class="sakelar" name="tip" id="tip-8" aria-label="Tips 9"><input type="radio" class="sakelar" name="tip" id="tip-9" aria-label="Tips 10"><input type="radio" class="sakelar" name="tip" id="tip-10" aria-label="Tips 11"><input type="radio" class="sakelar" name="tip" id="tip-11" aria-label="Tips 12"><input type="radio" class="sakelar" name="tip" id="tip-12" aria-label="Tips 13"><input type="radio" class="sakelar" name="tip" id="tip-13" aria-label="Tips 14"><input type="radio" class="sakelar" name="tip" id="tip-14" aria-label="Tips 15">
+  <div class="container">
+    <input type="radio" class="sakelar" name="tip" id="tip-0" checked aria-label="Tips 1">
+    <input type="radio" class="sakelar" name="tip" id="tip-1" aria-label="Tips 2">
+    <input type="radio" class="sakelar" name="tip" id="tip-2" aria-label="Tips 3">
+    <input type="radio" class="sakelar" name="tip" id="tip-3" aria-label="Tips 4">
+    <input type="radio" class="sakelar" name="tip" id="tip-4" aria-label="Tips 5">
+    <input type="radio" class="sakelar" name="tip" id="tip-5" aria-label="Tips 6">
+    <input type="radio" class="sakelar" name="tip" id="tip-6" aria-label="Tips 7">
+    <input type="radio" class="sakelar" name="tip" id="tip-7" aria-label="Tips 8">
+    <input type="radio" class="sakelar" name="tip" id="tip-8" aria-label="Tips 9">
+    <input type="radio" class="sakelar" name="tip" id="tip-9" aria-label="Tips 10">
+    <input type="radio" class="sakelar" name="tip" id="tip-10" aria-label="Tips 11">
+    <input type="radio" class="sakelar" name="tip" id="tip-11" aria-label="Tips 12">
+    <input type="radio" class="sakelar" name="tip" id="tip-12" aria-label="Tips 13">
+    <input type="radio" class="sakelar" name="tip" id="tip-13" aria-label="Tips 14">
+    <input type="radio" class="sakelar" name="tip" id="tip-14" aria-label="Tips 15">
     <div class="row g-5 align-items-center">
       <div class="col-lg-6" data-anim>
-        <div class="eyebrow">Tips Ramah Lingkungan</div><h2 class="sec-title">Kebiasaan kecil,<br><em>dampak</em> besar.</h2>
+        <div class="eyebrow">Tips Ramah Lingkungan</div>
+        <h2 class="sec-title">Kebiasaan kecil,<br><em>dampak</em> besar.</h2>
         <p class="tips-sub my-4">Inspirasi aksi sederhana yang bisa kamu lakukan hari ini.</p>
-        <span class="tips-tombol"><label for="tip-7" class="btn-ww tip-btn-0" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-11" class="btn-ww tip-btn-1" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-0" class="btn-ww tip-btn-2" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-4" class="btn-ww tip-btn-3" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-8" class="btn-ww tip-btn-4" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-12" class="btn-ww tip-btn-5" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-1" class="btn-ww tip-btn-6" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-5" class="btn-ww tip-btn-7" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-9" class="btn-ww tip-btn-8" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-13" class="btn-ww tip-btn-9" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-2" class="btn-ww tip-btn-10" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-6" class="btn-ww tip-btn-11" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-10" class="btn-ww tip-btn-12" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-14" class="btn-ww tip-btn-13" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label><label for="tip-3" class="btn-ww tip-btn-14" role="button">Tips acak <span class="dot"><i class="bi bi-arrow-repeat"></i></span></label></span>
+        <span class="tips-tombol">
+            <label for="tip-7" class="btn-ww tip-btn-0" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-11" class="btn-ww tip-btn-1" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-0" class="btn-ww tip-btn-2" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-4" class="btn-ww tip-btn-3" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-8" class="btn-ww tip-btn-4" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-12" class="btn-ww tip-btn-5" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-1" class="btn-ww tip-btn-6" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-5" class="btn-ww tip-btn-7" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-9" class="btn-ww tip-btn-8" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-13" class="btn-ww tip-btn-9" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-2" class="btn-ww tip-btn-10" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-6" class="btn-ww tip-btn-11" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-10" class="btn-ww tip-btn-12" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-14" class="btn-ww tip-btn-13" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+            <label for="tip-3" class="btn-ww tip-btn-14" role="button">Tips acak 
+                <span class="dot">
+                    <i class="bi bi-arrow-repeat"></i>
+                </span>
+            </label>
+        </span>
       </div>
-      <div class="col-lg-6" data-anim="right"><div class="tip-card"><div class="tip-panel tip-p-0"><div><div class="q">&ldquo;</div><p>Bawa tas belanja sendiri dan kurangi kantong plastik sekali pakai.</p></div><div class="foot"><span>Tips #01 dari 15</span><span class="dots"><i class="on"></i><i></i><i></i></span></div></div><div class="tip-panel tip-p-1"><div><div class="q">&ldquo;</div><p>Gunakan botol minum isi ulang, bukan air kemasan sekali pakai.</p></div><div class="foot"><span>Tips #02 dari 15</span><span class="dots"><i></i><i class="on"></i><i></i></span></div></div><div class="tip-panel tip-p-2"><div><div class="q">&ldquo;</div><p>Pisahkan sampah organik dan anorganik sejak dari dapur.</p></div><div class="foot"><span>Tips #03 dari 15</span><span class="dots"><i></i><i></i><i class="on"></i></span></div></div><div class="tip-panel tip-p-3"><div><div class="q">&ldquo;</div><p>Ubah sisa sayur dan buah menjadi kompos untuk tanaman di rumah.</p></div><div class="foot"><span>Tips #04 dari 15</span><span class="dots"><i class="on"></i><i></i><i></i></span></div></div><div class="tip-panel tip-p-4"><div><div class="q">&ldquo;</div><p>Matikan lampu dan cabut charger yang tidak digunakan untuk hemat energi.</p></div><div class="foot"><span>Tips #05 dari 15</span><span class="dots"><i></i><i class="on"></i><i></i></span></div></div><div class="tip-panel tip-p-5"><div><div class="q">&ldquo;</div><p>Pilih produk dengan kemasan minimal atau yang bisa diisi ulang.</p></div><div class="foot"><span>Tips #06 dari 15</span><span class="dots"><i></i><i></i><i class="on"></i></span></div></div><div class="tip-panel tip-p-6"><div><div class="q">&ldquo;</div><p>Servis perangkat elektronik sebelum memutuskan membeli yang baru.</p></div><div class="foot"><span>Tips #07 dari 15</span><span class="dots"><i class="on"></i><i></i><i></i></span></div></div><div class="tip-panel tip-p-7"><div><div class="q">&ldquo;</div><p>Setorkan sampah anorganik bersih ke Bank Sampah terdekat.</p></div><div class="foot"><span>Tips #08 dari 15</span><span class="dots"><i></i><i class="on"></i><i></i></span></div></div><div class="tip-panel tip-p-8"><div><div class="q">&ldquo;</div><p>Gunakan kembali toples atau botol kaca sebagai wadah penyimpanan.</p></div><div class="foot"><span>Tips #09 dari 15</span><span class="dots"><i></i><i></i><i class="on"></i></span></div></div><div class="tip-panel tip-p-9"><div><div class="q">&ldquo;</div><p>Catat menu mingguan agar belanja pas dan tidak ada makanan terbuang.</p></div><div class="foot"><span>Tips #10 dari 15</span><span class="dots"><i class="on"></i><i></i><i></i></span></div></div><div class="tip-panel tip-p-10"><div><div class="q">&ldquo;</div><p>Bawa wadah makan dan sedotan sendiri saat membeli makanan.</p></div><div class="foot"><span>Tips #11 dari 15</span><span class="dots"><i></i><i class="on"></i><i></i></span></div></div><div class="tip-panel tip-p-11"><div><div class="q">&ldquo;</div><p>Jangan buang baterai bekas ke tempat sampah biasa. Kumpulkan di titik B3.</p></div><div class="foot"><span>Tips #12 dari 15</span><span class="dots"><i></i><i></i><i class="on"></i></span></div></div><div class="tip-panel tip-p-12"><div><div class="q">&ldquo;</div><p>Cetak dokumen bolak-balik, atau cukup baca dalam bentuk digital.</p></div><div class="foot"><span>Tips #13 dari 15</span><span class="dots"><i class="on"></i><i></i><i></i></span></div></div><div class="tip-panel tip-p-13"><div><div class="q">&ldquo;</div><p>Ajak keluarga dan tetangga memilah sampah bersama-sama.</p></div><div class="foot"><span>Tips #14 dari 15</span><span class="dots"><i></i><i class="on"></i><i></i></span></div></div><div class="tip-panel tip-p-14"><div><div class="q">&ldquo;</div><p>Beli barang bekas berkualitas, selain hemat juga mengurangi sampah.</p></div><div class="foot"><span>Tips #15 dari 15</span><span class="dots"><i></i><i></i><i class="on"></i></span></div></div></div></div>
+      <div class="col-lg-6" data-anim="right">
+        <div class="tip-card">
+            <div class="tip-panel tip-p-0">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Bawa tas belanja sendiri dan kurangi kantong plastik sekali pakai.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #01 dari 15</span>
+                    <span class="dots">
+                        <i class="on"></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-1">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Gunakan botol minum isi ulang, bukan air kemasan sekali pakai.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #02 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i class="on"></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-2">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Pisahkan sampah organik dan anorganik sejak dari dapur.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #03 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i></i>
+                        <i class="on"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-3">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Ubah sisa sayur dan buah menjadi kompos untuk tanaman di rumah.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #04 dari 15</span>
+                    <span class="dots">
+                        <i class="on"></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-4">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Matikan lampu dan cabut charger yang tidak digunakan untuk hemat energi.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #05 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i class="on"></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-5">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Pilih produk dengan kemasan minimal atau yang bisa diisi ulang.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #06 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i></i>
+                        <i class="on"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-6">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Servis perangkat elektronik sebelum memutuskan membeli yang baru.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #07 dari 15</span>
+                    <span class="dots">
+                        <i class="on"></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-7">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Setorkan sampah anorganik bersih ke Bank Sampah terdekat.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #08 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i class="on"></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-8">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Gunakan kembali toples atau botol kaca sebagai wadah penyimpanan.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #09 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i></i>
+                        <i class="on"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-9">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Catat menu mingguan agar belanja pas dan tidak ada makanan terbuang.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #10 dari 15</span>
+                    <span class="dots">
+                        <i class="on"></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-10">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Bawa wadah makan dan sedotan sendiri saat membeli makanan.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #11 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i class="on"></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-11">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Jangan buang baterai bekas ke tempat sampah biasa. Kumpulkan di titik B3.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #12 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i></i>
+                        <i class="on"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-12">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Cetak dokumen bolak-balik, atau cukup baca dalam bentuk digital.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #13 dari 15</span>
+                    <span class="dots">
+                        <i class="on"></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-13">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Ajak keluarga dan tetangga memilah sampah bersama-sama.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #14 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i class="on"></i>
+                        <i></i>
+                    </span>
+                </div>
+            </div>
+            <div class="tip-panel tip-p-14">
+                <div>
+                    <div class="q">&ldquo;</div>
+                    <p>Beli barang bekas berkualitas, selain hemat juga mengurangi sampah.</p>
+                </div>
+                <div class="foot">
+                    <span>Tips #15 dari 15</span>
+                    <span class="dots">
+                        <i></i>
+                        <i></i>
+                        <i class="on"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== SDGs ===== -->
 <section class="sec" id="sdgs">
   <div class="container">
     <div class="sec-head d-flex flex-wrap justify-content-between align-items-end gap-4" data-anim>
-      <div><div class="eyebrow">Informasi SDGs</div><h2 class="sec-title">Sejalan dengan <em>tujuan</em><br>global 2030.</h2></div>
+      <div><div class="eyebrow">Informasi SDGs</div>
+      <h2 class="sec-title">Sejalan dengan <em>tujuan</em><br>global 2030.</h2>
+    </div>
       <p class="sec-sub mb-0">WasteWise mendukung empat tujuan pembangunan berkelanjutan.</p>
     </div>
     <div class="row g-4">
-      <div class="col-md-6 col-xl-3" data-anim><a class="sdg-card sdg-11 d-flex" href="pages/sdgs.html#sdg11"><div class="d-flex justify-content-between align-items-start"><div class="no">11</div><img src="images/sdgs/sdg-11.png" alt="SDG 11"></div><div><h3>Kota &amp; Permukiman Berkelanjutan</h3><p>Pengelolaan sampah kota yang baik.</p></div></a></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="100"><a class="sdg-card sdg-12 d-flex" href="pages/sdgs.html#sdg12"><div class="d-flex justify-content-between align-items-start"><div class="no">12</div><img src="images/sdgs/sdg-12.png" alt="SDG 12"></div><div><h3>Konsumsi &amp; Produksi Bertanggung Jawab</h3><p>Kurangi, gunakan ulang, daur ulang.</p></div></a></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="200"><a class="sdg-card sdg-13 d-flex" href="pages/sdgs.html#sdg13"><div class="d-flex justify-content-between align-items-start"><div class="no">13</div><img src="images/sdgs/sdg-13.png" alt="SDG 13"></div><div><h3>Penanganan Perubahan Iklim</h3><p>Turunkan emisi dari sampah.</p></div></a></div>
-      <div class="col-md-6 col-xl-3" data-anim data-delay="300"><a class="sdg-card sdg-14 d-flex" href="pages/sdgs.html#sdg14"><div class="d-flex justify-content-between align-items-start"><div class="no">14</div><img src="images/sdgs/sdg-14.png" alt="SDG 14"></div><div><h3>Ekosistem Lautan</h3><p>Cegah sampah plastik ke laut.</p></div></a></div>
+      <div class="col-md-6 col-xl-3" data-anim>
+        <a class="sdg-card sdg-11 d-flex" href="pages/sdgs.html#sdg11">
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="no">11</div>
+                <img src="images/sdgs/sdg-11.png" alt="SDG 11">
+            </div>
+                <div>
+                    <h3>Kota &amp; Permukiman Berkelanjutan</h3>
+                    <p>Pengelolaan sampah kota yang baik.</p>
+                </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="100">
+        <a class="sdg-card sdg-12 d-flex" href="pages/sdgs.html#sdg12">
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="no">12</div>
+                <img src="images/sdgs/sdg-12.png" alt="SDG 12">
+            </div>
+            <div>
+                <h3>Konsumsi &amp; Produksi Bertanggung Jawab</h3>
+                <p>Kurangi, gunakan ulang, daur ulang.</p>
+            </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="200">
+        <a class="sdg-card sdg-13 d-flex" href="pages/sdgs.html#sdg13">
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="no">13</div>
+                <img src="images/sdgs/sdg-13.png" alt="SDG 13">
+            </div>
+            <div>
+                <h3>Penanganan Perubahan Iklim</h3>
+                <p>Turunkan emisi dari sampah.</p>
+            </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-xl-3" data-anim data-delay="300">
+        <a class="sdg-card sdg-14 d-flex" href="pages/sdgs.html#sdg14">
+            <div class="d-flex justify-content-between align-items-start">
+                <div class="no">14</div>
+                <img src="images/sdgs/sdg-14.png" alt="SDG 14">
+            </div>
+            <div>
+                <h3>Ekosistem Lautan</h3>
+                <p>Cegah sampah plastik ke laut.</p>
+            </div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -350,7 +1064,14 @@
   <div class="container">
     <div class="row g-5 pb-5">
       <div class="col-lg-5">
-        <a class="brand" href="index.html"><span class="brand-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A3D2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/><path d="M2 21c0-3 1.9-5.4 5.4-6.8"/></svg></span>WasteWise</a>
+        <a class="brand" href="index.html">
+            <span class="brand-ico">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A3D2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10z"/>
+                    <path d="M2 21c0-3 1.9-5.4 5.4-6.8"/>
+                </svg>
+            </span>WasteWise
+        </a>
         <p class="mt-4 mb-4" style="opacity:.72;max-width:420px">Platform edukasi pengelolaan sampah untuk lingkungan yang lebih bersih dan berkelanjutan.</p>
         <form class="nl" id="langganan" action="#langganan" method="get">
           <input type="email" name="email" placeholder="Email kamu" aria-label="Email berlangganan" required>
@@ -358,20 +1079,30 @@
         </form>
         <p class="nl-ok" role="status"><i class="bi bi-check2-circle"></i> Terima kasih! Kamu sudah berlangganan info WasteWise.</p>
       </div>
-      <div class="col-6 col-lg-2 offset-lg-1"><h5>Jelajahi</h5><ul>
-        <li><a href="pages/jenis-sampah.html">Jenis Sampah</a></li>
-        <li><a href="pages/pengelolaan.html">Pengelolaan</a></li>
-        <li><a href="pages/3r.html">3R</a></li>
-        <li><a href="pages/artikel.html">Artikel</a></li></ul></div>
-      <div class="col-6 col-lg-2"><h5>Layanan</h5><ul>
-        <li><a href="pages/laporan.html">Laporan Sampah</a></li>
-        <li><a href="pages/statistik.html">Statistik</a></li>
-        <li><a href="index.html#tips">Tips Hijau</a></li>
-        <li><a href="pages/sdgs.html">SDGs</a></li></ul></div>
-      <div class="col-12 col-lg-2"><h5>Kontak</h5><ul>
-        <li><a href="mailto:info@wastewise.id">info@wastewise.id</a></li>
-        <li>Indonesia</li>
-        <li><a href="pages/tentang.html">Tentang WasteWise</a></li></ul></div>
+      <div class="col-6 col-lg-2 offset-lg-1">
+        <h5>Jelajahi</h5>
+        <ul>
+            <li><a href="pages/jenis-sampah.html">Jenis Sampah</a></li>
+            <li><a href="pages/pengelolaan.html">Pengelolaan</a></li>
+            <li><a href="pages/3r.html">3R</a></li>
+            <li><a href="pages/artikel.html">Artikel</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2"><h5>Layanan</h5>
+        <ul>
+            <li><a href="pages/laporan.html">Laporan Sampah</a></li>
+            <li><a href="pages/statistik.html">Statistik</a></li>
+            <li><a href="index.html#tips">Tips Hijau</a></li>
+            <li><a href="pages/sdgs.html">SDGs</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-2"><h5>Kontak</h5>
+        <ul>
+            <li><a href="mailto:info@wastewise.id">info@wastewise.id</a></li>
+            <li>Indonesia</li>
+            <li><a href="pages/tentang.html">Tentang WasteWise</a></li>
+        </ul>
+      </div>
     </div>
     <div class="wordmark" aria-hidden="true">WasteWise</div>
   </div>
