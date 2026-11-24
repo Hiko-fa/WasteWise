@@ -1,0 +1,133 @@
+.kpi-card {
+  border-radius: var(--r-md);
+  padding: 1.8rem;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-card::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  right: -50px;
+  top: -60px;
+}
+
+.kpi-card i {
+  font-size: 1.6rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.22);
+  display: grid;
+  place-items: center;
+}
+
+.kpi-card b {
+  font-family: var(--font-head);
+  font-size: 2.8rem;
+  display: block;
+  margin-top: 1rem;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.kpi-card > span {
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.k1 {
+  background: linear-gradient(135deg, #0f5a43, #0a3d2e);
+}
+
+.k2 {
+  background: linear-gradient(135deg, #2a75ae, #1d4f7c);
+}
+
+.k3 {
+  background: linear-gradient(135deg, #d99a0b, #b97a00);
+}
+
+.k4 {
+  background: linear-gradient(135deg, #e1573a, #b53a22);
+}
+
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 2rem;
+  height: 100%;
+}
+
+.chart-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.chart-card small {
+  color: var(--mut);
+}
+
+.chart-box {
+  position: relative;
+  height: 340px;
+  margin-top: 1.2rem;
+}
+
+.chart-box.sm {
+  height: 300px;
+}
+
+.note-data {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background: var(--mint);
+  border-radius: 22px;
+  padding: 1rem 1.4rem;
+  font-size: 0.92rem;
+  color: var(--mut);
+}
+
+.note-data i {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-top: 0.1rem;
+}
+
+.progress-ww {
+  height: 14px;
+  border-radius: 999px;
+  background: var(--soft);
+  overflow: hidden;
+}
+
+.progress-ww > div {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--forest-2), var(--lime));
+  width: 0;
+  transition: width 1.4s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.stat-table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--ink);
+  --bs-table-border-color: var(--line);
+}
+
+.stat-table th {
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mut);
+  font-weight: 700;
+}
+
